@@ -17,3 +17,21 @@ elif op == "3":
 pass # Aquí se llamará a la función del integrante 3
 else:
 print(" Opción inválida.")
+
+def datos_cristian():
+    print("Mi nombre es Cristian Romero y tengo 22 años.")
+
+
+# Menú principal
+print("Menú de opciones")
+print("1. Mostrar mis datos")
+print("2. Salir")
+
+op = input("Elige una opción: ")
+
+if op == "2":
+    print("Saliendo del programa...")
+elif op == "1":
+    datos_cristian()
+else:
+    print("Opción no válida.")
